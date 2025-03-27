@@ -19,12 +19,6 @@
     font-style: normal;
 }
 
-html {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
     background-repeat: no-repeat;
@@ -34,13 +28,42 @@ body {
     padding: 0;
 }
 
-.dark body {
+.dark {
     background: linear-gradient(180deg, #040918 0%, #091540 100%);
     background-repeat: no-repeat;
     font-family: 'Noto Sans', sans-serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+header {
+    padding: 0 1rem;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #FCFDFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+}
+
+.theme-button {
+    background-color: #EEEEEF;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.theme-button img {
+    width: 20px;
+    height: 20px;
 }
 
 .attribution {
